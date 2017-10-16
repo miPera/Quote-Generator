@@ -1,0 +1,58 @@
+.jumbotron{
+  margin-top:2%;
+}
+
+.quote-container {
+  border-radius: 5px;
+  position: relative;
+  width: 50%;
+  margin: auto auto auto auto;
+  padding: 1% 1%;
+  background-color:#fff;
+  overflow: hidden 
+}
+
+.quote-container .quote-text-container {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.75em;
+}
+
+.quote-container .quote-author-container {
+  text-align: right;
+  font-size: 1em;
+}
+
+.quote-container .button-container .button {
+  height: 38px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #7aadff;
+  outline: none;
+  margin-top: 30px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.quote-container .button-container .button#fcc-button, .quote-container .button-container .button#github-button{
+  float: left;
+  padding: 0px;
+  padding-top: 0px;
+  text-align: center;
+  font-size: 1.7em;
+  margin-right: 5px;
+  height: 35px;
+  width: 45px;
+}
+
+.quote-container .button-container .button#quote-button {
+  float: right;
+  padding: 0px;
+  padding-top: 0px;
+  text-align: center;
+  font-size: 1em;
+  margin-right: 5px;
+  height: 40px;
+  width: 80px;
+}
